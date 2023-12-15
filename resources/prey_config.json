@@ -1,9 +1,9 @@
 {
     "activate_death": true,
-    "activate_events": true,
+    "activate_events": false,
     "start_amount": 60,
-    "auto_warrior_prey": [1,3],
-    "auto_apprentice_prey": [1,2],
+    "auto_warrior_prey": [1,8],
+    "auto_apprentice_prey": [1,9],
     "condition_increase": 1,
     "base_event_trigger_factor": 4,
 	"events_weights":{
@@ -11,7 +11,7 @@
 		"injury": 4,
 		"reduce": 6
 	},
-    "additional_prey": 0.5,
+    "additional_prey": 5,
     "nutrition_malnourished_percentage" : 70,
     "nutrition_starving_percentage" : 25,
     "prey_requirement":{
