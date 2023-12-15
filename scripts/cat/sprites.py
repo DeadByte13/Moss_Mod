@@ -141,7 +141,7 @@ class Sprites():
             self.make_group('fadedarkforest', (i, 0), f'fadedf{i}')
 
         for a, i in enumerate(
-                ['YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN', 'BLUE']):
+                ['YELLOW', 'COPAL', 'HAZEL', 'PALE GREEN', 'GREEN', 'BLUE']):
             self.make_group('eyes', (a, 0), f'eyes{i}')
 
         for a, i in enumerate(
@@ -153,7 +153,7 @@ class Sprites():
             self.make_group('eyes', (a, 2), f'eyes{i}')
 
         for a, i in enumerate(
-                ['PALE YELLOW', 'GOLD', 'LIME', 'HAZELNUT', 'DARK AMBER', 'SLATE']):
+                ['PALE YELLOW', 'GOLD', 'LIME', 'HAZELNUT', 'DARK COPAL', 'SLATE']):
             self.make_group('eyes', (a, 3), f'eyes{i}')
 
         for a, i in enumerate(
